@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Dcat\Admin\LogViewer;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Layout\Content;
+use Dcat\Admin\Facades\Admin;
+use Dcat\Admin\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 

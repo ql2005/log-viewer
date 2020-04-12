@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Dcat\Admin\LogViewer;
 
-use Encore\Admin\Extension;
+use Dcat\Admin\Extension;
 
 /**
  * Class LogViewer.

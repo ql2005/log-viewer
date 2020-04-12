@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Dcat\Admin\LogViewer;
 
-use Encore\Admin\Admin;
+use Dcat\Admin\Admin;
 
 trait BootExtension
 {
@@ -25,9 +25,9 @@ trait BootExtension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('logs', 'Encore\Admin\LogViewer\LogController@index')->name('log-viewer-index');
-            $router->get('logs/{file}', 'Encore\Admin\LogViewer\LogController@index')->name('log-viewer-file');
-            $router->get('logs/{file}/tail', 'Encore\Admin\LogViewer\LogController@tail')->name('log-viewer-tail');
+            $router->get('logs', 'Dcat\Admin\LogViewer\LogController@index')->name('log-viewer-index');
+            $router->get('logs/{file}', 'Dcat\Admin\LogViewer\LogController@index')->name('log-viewer-file');
+            $router->get('logs/{file}/tail', 'Dcat\Admin\LogViewer\LogController@tail')->name('log-viewer-tail');
         });
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Dcat\Admin\LogViewer;
 
 use Illuminate\Support\ServiceProvider;
 
